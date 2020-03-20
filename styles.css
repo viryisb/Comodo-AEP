@@ -1,0 +1,6 @@
+.inner-banner {
+    background: url(assets/inner-banner-bg.jpg) no-repeat 0 0;
+    background-size: cover;
+    min-height: 376px;
+    padding: 40px 0;
+}
