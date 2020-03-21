@@ -1,6 +1,171 @@
-.inner-banner {
-    background: url(assets/inner-banner-bg.jpg) no-repeat 0 0;
+.body{
+    display:flex;
+   flex-direction:column;
+}
+.inner-page .inner-banner {
+    background: url(assets/inner-banner-bg.jpg)/*  no-repeat 0 0 */;
     background-size: cover;
     min-height: 376px;
     padding: 40px 0;
 }
+
+
+    .inner-page .inner-banner p {
+        font-family: 'Industry_Medium';
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    
+p {
+    font-size: 18px;
+    color: #e4002b;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    
+}
+p {
+    margin-top: 0;
+    /* margin-bottom: 1rem; */
+    
+}
+
+.h1 {
+    font: 48px 'Industry_Book';
+    color: #221c35;
+    /* text-transform: uppercase; */
+    word-break: break-word;
+}
+.inner-banner h1 + span {
+    font-size: 16px;
+    color: #666666;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    /* margin-bottom: .5rem; */
+}
+
+.inner-banner ul {
+    padding-top: 40px;
+}
+.inner-banner ul {
+    margin: 0px;
+    padding: 20px 0 0px 0px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.inner-banner ul.trust-logos li {
+    list-style: none;
+    /* display: inline-block; */
+    /* padding: 0px 15px; */
+    font: 600 18px 'Industry_Book';
+    color: #616161;
+}
+li {
+    /* display: list-item; */
+    text-align: -webkit-match-parent;
+}
+ .inner-banner .btn-red.btn-large {
+    background-color: #ffffff;
+    color: #221c35 !important;
+    font-weight: 600;
+    border: 3px solid #da3832;
+    border-radius: 6px;
+    margin: 0 !important;
+    padding: 15px 35px;
+}
+.inner-banner .btn-red.btn-large {
+    font-size: 18px;
+    /* padding: 15px 40px; */
+    /* border-radius: 50px; */
+}
+.btn-large {
+    min-width: 200px;
+}
+.btn-red {
+    /* background-color: #e4002b; */
+    /* font-size: 12px; */
+    text-transform: uppercase;
+    /* border-radius: 60px; */
+    line-height: 16px;
+    /* padding: 15px; */
+    text-align: center;
+    display: inline-block;
+    /* color: #fff; */
+    font-family: 'Industry_Medium', sans-serif;
+    /* font-weight: 500; */
+}
+.btn {
+    letter-spacing: 2px;
+}
+.btn-red {
+    font: 14px 'Industry_Demi';
+    /* background-color: #e51d2e; */
+    /* padding: 15px 25px; */
+    /* border-radius: 30px; */
+    /* text-transform: uppercase; */
+    /* color: #ffffff !important; */
+    /* letter-spacing: 3px; */
+}
+.btn {
+    /* display: inline-block; */
+    /* font-weight: 400; */
+    /* color: #212529; */
+    /* text-align: center; */
+    vertical-align: middle;
+    /* -webkit-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* background-color: transparent; */
+    /* border: 1px solid transparent; */
+    /* padding: .375rem .75rem; */
+    /* font-size: 1rem; */
+    /* line-height: 1.5; */
+    /* border-radius: .25rem; */
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+a {
+    /* color: #007bff; */
+    text-decoration: none;
+    /* background-color: transparent; */
+}
+.inner-page  .inner-banner ul.trust-logos li {
+    padding: 0px 10px;
+}
+.inner-page .inner-banner ul.trust-logos li {
+    list-style: none;
+    /* display: inline-block; */
+    /* padding: 0px 15px; */
+    font: 600 18px 'Industry_Book';
+    color: #616161;
+}
+
+.img {
+    vertical-align: middle;
+    border-style: none;
+}
+.col-lg-4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img-fluid {
+   
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
